@@ -1,0 +1,5 @@
+DROP DATABASE IF EXISTS join_us;
+
+CREATE DATABASE join_us;
+
+USE join_us;

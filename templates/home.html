@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet" />
+  <link rel="stylesheet" href="../static/main.css" />
+  <title>Join Us</title>
+</head>
+
+<body>
+  <div class="flex-container">
+    <div class="container">
+      <h1>JOIN US</h1>
+      <p class="lead">
+        Enter your email to join <span class="number">{{ data }}</span> others
+        on our waitist. We are 100% not a cult.
+      </p>
+      <form method="POST" action="/">
+        <input type="text" name="email" class="form" placeholder="Enter your Email" />
+        <button type="submit" value="submit">Join Now</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
